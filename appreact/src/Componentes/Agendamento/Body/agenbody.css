@@ -1,0 +1,29 @@
+.agen_container{
+    width: 100vw;
+    height: 82vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.select_content{
+    width: 80vw;
+    height: 20vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_angen{
+    width: 80vw;
+    font-weight: 700;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F06123;
+}   
+
+

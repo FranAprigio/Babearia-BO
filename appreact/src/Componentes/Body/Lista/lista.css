@@ -1,0 +1,170 @@
+@media screen and (min-width: 1200px){
+    
+    .container{
+        background-color: #111111;
+        color: white;
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        justify-content: center; 
+    }
+
+    .container_list{
+        width: 80vw;
+        height: 75vh;
+        background-color: black;
+    }
+
+    .imagens{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 4vh;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    .imagens img{
+        width: 100px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .imagens .canivete{
+        margin-top: 5vh;
+    }
+
+    .imagens .head{
+        margin-top: 5vh;
+    }
+
+    .container_preco{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 5vh;
+        border: white solid;
+    }
+
+    .container_preco h1{
+        font-size: 55.81px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
+
+    .precos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .left_list{
+        width: 20vw;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+
+    .left_list p{
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top: 4vh;
+        font-size: 18px;
+    }
+
+    .center_list{
+        height: 25vh;
+        width: 0.5vh;
+        background-color: white;
+        border-radius: 20%;
+    }
+
+    .rigth_list{
+        width: 20vw;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+
+    .rigth_list p{
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top: 4vh;
+        font-size: 18px;
+    }
+
+
+    .container_preco_respons{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .container_list{
+        
+        width: 80vw;
+        height: 75vh;
+        background-color: black;
+    }
+
+    .imagens{      
+        display: flex;
+        justify-content: space-around;
+        margin-top: 4vh;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    .imagens img{
+        width: 100px;
+        height: 120px;
+        border-radius: 50%;
+        margin-left: 2vw;
+        background-color: white;
+    }
+
+    .container_preco{
+        display: none;
+    }
+
+    .container_preco_respons{
+        display: flex;
+        flex-direction: column;
+        border: white solid;
+        height: 55vh;
+        width: 80vw;
+    }
+
+    .container_preco_respons h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .precos_respons{
+        display: flex;
+        margin-left: 10vw;
+        margin-top: 4vh;
+    }
+
+    .itens_respons p{
+        font-size: 1.5rem;
+        margin-bottom: 3.5vh;
+    }
+
+    .valor_respons p{
+        font-size: 1.5rem;
+        margin-bottom: 3.5vh;
+        margin-left: 15vw;
+    }
+
+
+}
+

@@ -1,0 +1,90 @@
+.agenda_header{
+    width: 100vw;
+    height: 12vh;
+    background-color: #111111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid #F06123;
+}
+
+.agenda_header_container{
+    width: 80vw;
+    background-color: #111111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.navbar_agenda{
+    height: 8vh;
+    width: 80vw;
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-start;
+}
+
+.logo_agenda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+}
+
+.logo_agenda h1{
+    font-size: 50.81px;
+    margin-left: 1vw;
+    margin-right: -5vw;
+}
+
+.info_agenda{
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2vh;
+}
+
+.nav_button{
+    height: 5vh;
+    width: 9vh;
+    margin-left: 2.5vw;
+    outline: none;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: #111111;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    color: white;
+    cursor: pointer;
+}
+
+.nav_button:hover{
+    background-color: #F06123;
+}
+
+
+.fabell{
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.button_logout{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #F06123;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    color: white;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+

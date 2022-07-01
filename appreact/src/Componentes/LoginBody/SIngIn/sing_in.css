@@ -1,0 +1,199 @@
+@media screen and (min-width: 1200px){
+
+    .login_content{
+        width: 100vw;
+        height: 88vh;
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_login{
+        width: 727px;
+        height: 395px;
+        background-color: #F06123;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #F2F2F2;
+        border-radius: 20px
+    }
+
+    .imgB{
+        width: 253px;
+        height: 378px;
+        left: 414px;
+        top: 321px;
+        margin-left: 3vw;
+    }
+
+    .user-login{
+        width: 240px;
+        height: 235px;
+        left: 810px;
+        top: 400px;
+        background: #F4F3F3;
+        border: 2px solid #BDBDBD;
+        border-radius: 20px;
+        margin-right: 3vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .user-login__title{
+        margin-bottom: 2vh;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #301B52;
+    }
+
+    .user-login__form{
+        margin-bottom: 1.5vh;
+    }
+    .user-login__form input{
+        border-radius: 50px;
+        margin-left: 0.5vw;
+        width: 190px;
+        height: 30px;
+    }
+
+    .password_forgot{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #301B52;
+    }
+
+    .login_user_button{
+        width: 87px;
+        height: 26px;
+        left: 942px;
+        top: 580px;
+        background: #301B52;
+        border-radius: 20px;
+        margin-top: 2vh;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: 0.5vw;
+        color: #FFFFFF;
+    }
+
+    .singup_user_button{
+        width: 87px;
+        height: 26px;
+        left: 942px;
+        top: 580px;
+        background: #DB0916;
+        border-radius: 20px;
+        margin-top: 2vh;
+        margin-left: 1vw;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .login_content{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../../../Assets/back_login.jpg");
+        background-size: 100vh;
+        background-repeat: no-repeat;
+        
+    }
+    
+
+    .imgB{
+        display: none;
+    }
+
+
+    .user-login{
+        width: 240px;
+        height: 235px;
+        left: 810px;
+        top: 400px;
+        border-radius: 20px;
+        margin-right: 3vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .user-login__title{
+        margin-bottom: 2vh;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #301B52;
+    }
+
+    .user-login__form{
+        margin-bottom: 1.5vh;
+    }
+    .user-login__form input{
+        border-radius: 50px;
+        margin-left: 0.5vw;
+        width: 190px;
+        height: 30px;
+    }
+
+    .password_forgot{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #301B52;
+    }
+
+    .login_user_button{
+        width: 87px;
+        height: 26px;
+        left: 942px;
+        top: 580px;
+        background: #301B52;
+        border-radius: 20px;
+        margin-top: 2vh;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: 0.5vw;
+        color: #FFFFFF;
+    }
+
+    .singup_user_button{
+        width: 87px;
+        height: 26px;
+        left: 942px;
+        top: 580px;
+        background: #DB0916;
+        border-radius: 20px;
+        margin-top: 2vh;
+        margin-left: 1vw;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+}

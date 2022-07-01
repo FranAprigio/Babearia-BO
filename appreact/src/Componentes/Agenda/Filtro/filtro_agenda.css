@@ -1,0 +1,59 @@
+.filtro_container{
+    width: 100vw;
+    height: 82vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.agenda_filtro{
+    width: 80vw;
+    height: 35vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_filtro{
+    width: 80vw;
+    height: 10vh;
+    font-weight: 700;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F06123;
+}   
+
+.calendario{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-bottom: solid 1.5px gray;
+}
+
+.descricao_calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.icone_filtro {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 2vh;
+    display: flex;
+    align-content: center;
+}
+
+.sub_filtro{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    line-height: 16px;
+}
+

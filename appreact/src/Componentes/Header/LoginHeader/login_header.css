@@ -1,0 +1,137 @@
+@media screen and (min-width: 1200px){
+
+    .login_header{
+        width: 100vw;
+        height: 12vh;
+        background-color: #111111;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header_container{
+        width: 80vw;
+        background-color: #111111;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .local_login{
+        height: 4vh;
+        width: 80vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .local_login p {
+        padding-left: 100px;
+        font-size: 0.8rem;   
+    }
+
+    .navbar_login{
+        height: 8vh;
+        width: 80vw;
+        display: flex;
+        align-content: space-around;
+        justify-content: flex-start;
+    }
+
+    .logo_login{
+        width: 331px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 1vw;
+        margin-bottom: 5vh;
+    }
+
+    .logo_login h1{
+        font-size: 55.81px;
+        margin-left: 1vw;
+        margin-right: -5vw;
+
+    }
+
+    .info_login{
+        width: 60vw;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1vh;
+    }
+
+    .main_button{
+        height: 40px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 50px;
+        background-color: #F06123;
+        border: 1px solid rgba(0, 0, 0, 0.6);
+        color: white;
+        position: relative;
+        outline: none;
+    }
+
+    .header_login_respons{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1200px)  {
+    
+    .login_header{
+        width: 100vw;
+        height: 12vh;
+        background-color: #111111;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header_container{
+        width: 80vw;
+        background-color: #111111;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .local_login{
+        display: none;
+    }
+
+    .navbar_login{
+        height: 8vh;
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo_login h1{
+        display: none;
+    }
+
+    .main_button{
+        height: 40px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 50px;
+        background-color: #F06123;
+        border: 1px solid rgba(0, 0, 0, 0.6);
+        color: white;
+        position: relative;
+        outline: none;
+        display: none;
+    }
+
+}

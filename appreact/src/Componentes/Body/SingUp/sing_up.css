@@ -1,0 +1,119 @@
+@media screen and (min-width: 1200px){
+
+    .container{
+        background-color: #111111;
+        color: white;
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        justify-content: center; 
+    }
+
+    .sing_up_container{
+        height: 65vh;
+        width: 80vw;
+        color: black;
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sing_up{
+        width: 80vw;
+        height: 50vh;
+        background-color: #786c6c;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .sing {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 5vw;
+        margin-left: 2vw;
+        margin-bottom: 9%;
+    }
+
+    .lable{
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .input{
+        width: 45vh;
+        height: 4.6vh;
+        border: 1px solid #ccc;
+        font-weight: 700;
+    }
+    label{
+        font-weight: 600;
+        margin-bottom: 1vh;
+    }
+
+}
+
+@media screen and (max-width: 1200px)  {
+
+    .container{
+        background-color: #111111;
+        color: white;
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        justify-content: center; 
+    }
+
+    .sing_up_container{
+        height: 65vh;
+        width: 80vw;
+        color: black;
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sing_up{
+        width: 80vw;
+        height: 60vh;
+        background-color: #786c6c;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .sing {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 5vw;
+        margin-left: 2vw;
+        margin-bottom: 9%;
+    }
+
+    .lable{
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .input{
+        width: 45vh;
+        height: 4.6vh;
+        border: 1px solid #ccc;
+        font-weight: 700;
+    }
+    label{
+        font-weight: 600;
+        margin-bottom: 1vh;
+    }
+
+}
